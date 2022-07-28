@@ -1,0 +1,133 @@
+body {
+	
+	position: relative;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+  }
+  
+  .navbar {
+	font-size: 16px;
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar .container {
+	font-size: 16px;
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .navbar-menu {
+	font-size: 16px;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+  }
+  .navbar-menu li {
+	font-size: 16px;
+	display: inline-block;
+  }
+  .navbar-menu li a {
+	padding: 10px 20px;
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 10px;
+	transition: all 0.07s ease-in-out;
+  }
+  .navbar-menu li a:hover {
+	opacity: 1;
+  }
+  
+  .navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+  }
+  
+  .collback {
+	margin-left: 10px;
+	padding: 10px 30px;
+	background-color: coral;
+	border-radius: 100px;
+	color: aliceblue;
+	text-decoration: none;
+	transition: all 0.1s ease-in-out;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, 0.2);
+  }
+  .collback:hover {
+	transform: scale(1.04);
+	color: aliceblue;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, 0.5);
+  }
+  
+  .navbar-brend {
+	transition: all 0.07s ease-in-out;
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+  }
+  .navbar-brend:hover {
+	color: coral;
+  }
+  
+  .text {
+	display: inline-block;
+	margin: 100px;
+	padding: 50px;
+	border-radius: 10px;
+	background-color: coral;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, 0.5);
+	width: 500px;
+  }
+  .text .text_p {
+	font-size: 20px;
+  }
+
+  h1{
+	padding-top: 50px;
+  }
+  .about-items-text {
+	
+	
+	margin-left: 100px;
+	text-align: center;
+  }
+  h4{
+	margin-left: 450px;
+	width: 500px;
+  }
+  li{
+	list-style-type:none;
+	font-size: 25px;
+	border: none;
+	padding: 0;
+	margin: 0;
+	padding: 0; /* Убираем поля */
+    margin-left: 0px; /* Отступ слева */
+  }
+  .items{
+	padding-top: 100px;
+	margin-left: 600px;
+  }
+  h2{
+	
+	font-weight: 700;
+  }
+  a{
+	color: coral;
+  }
+  a:hover{
+	color: coral;
+  }
+
+/*# sourceMappingURL=/about.b8cf0a4a.css.map */

@@ -1,0 +1,74 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+	position: relative;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+
+}
+
+
+.header {
+	position: relative;
+	min-height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+.header__content{
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+	
+}
+.header .row{
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0,.6);
+}
+.header__content h1{
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.header__content h4{
+	font-size: 21px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	opacity: 0.7;
+}
+.btn-main{
+	display: inline-block;
+	padding: 10px 35px;
+	font-size: 18px;
+	border: none;
+	background-color: #ffc107;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight: 700;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .4);
+	transition: all .09s ease-out;
+}
+.btn-main:hover{
+	box-shadow: 0 5px 10px rgba(255, 193, 7, .5);
+	transform: scale(1.05);
+}
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */

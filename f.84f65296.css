@@ -1,0 +1,160 @@
+/**
+ * Базовые стили для всего сайта
+ */
+ body {
+	position: relative;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+	padding-left: 50px;
+}
+
+
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .navbar .container {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+  }
+  .navbar-menu li {
+	display: inline-block;
+  }
+  .navbar-menu li a {
+	padding: 10px 20px;
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 10px;
+	transition: all 0.07s ease-in-out;
+  }
+  .navbar-menu li a:hover {
+	opacity: 1;
+  }
+  
+  .navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+  }
+  
+  .collback {
+	margin-left: 10px;
+	padding: 10px 30px;
+	background-color: coral;
+	border-radius: 100px;
+	color: aliceblue;
+	text-decoration: none;
+	transition: all 0.1s ease-in-out;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, 0.2);
+  }
+  .collback:hover {
+	transform: scale(1.04);
+	color: aliceblue;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, 0.5);
+  }
+  
+  .navbar-brend {
+	transition: all 0.07s ease-in-out;
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+  }
+  .navbar-brend:hover {
+	color: coral;
+  }
+  
+  .text {
+	display: inline-block;
+	margin: 100px;
+	padding: 50px;
+	border-radius: 10px;
+	background-color: coral;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, 0.5);
+	width: 500px;
+  }
+  .text .text_p {
+	font-size: 20px;
+  }
+ /* .navbar__srolet{
+	position: fixed;
+	background-color: red;
+	
+} */
+/**
+ * Другие стили
+ */
+ 
+.product{
+	margin-bottom: 30px;
+	
+}
+.product-imge {
+	margin-bottom: 10px;
+}
+
+.product-imge img{
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 7px;
+}
+.info h3{
+	font-size: 21px;
+	margin-bottom: 0;
+}
+
+.raiting{
+	margin-bottom: 0;
+	padding-left: 0;
+	color: #ffc107;
+	list-style-type: none;
+}
+.raiting li{
+	display: inline-block;
+}
+.info-price{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.add-to-cart{
+	border: none;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255, 193, 7);
+	color: #fff;
+	border-radius: 10px;
+}
+.add-to-cart:hover{
+	box-shadow: 2px 4px 4px rgba(255, 193, 7, 0.5)
+
+}
+.price{
+	font-weight: 700;
+}
+
+
+
+/*# sourceMappingURL=/f.84f65296.css.map */
